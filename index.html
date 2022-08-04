@@ -408,35 +408,38 @@
                 </svg>
             </button>
             <form class="modal-form">
-                <div class="form-field">
-                    <label for="name">Ім'я</label>
-                    <input type="text" name="name" id="name" class="form-input">
+                <label class="form-field">
+                    Ім'я
+                    <input type="text" name="name" class="form-input">
                     <svg class="form-icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-person"> </use>
                     </svg>
-                </div>
-                <div class="form-field">
-                    <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" class="form-input">
+                </label>
+                <label class="form-field">
+                    Телефон
+                    <input type="tel" name="tel" class="form-input">
                     <svg class="form-icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-phone"> </use>
                     </svg>
-                </div>
-                <div class="form-field">
-                    <label for="mail">Пошта</label>
-                    <input type="email" name="mail" id="mail" class="form-input">
+                </label>
+                <label class="form-field">Пошта
+                    <input type="email" name="mail" class="form-input">
                     <svg class="form-icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-mail"> </use>
                     </svg>
-                </div>
-                <div class="form-field">
-                    <label for="comment">Коментар</label>
-                    <textarea class="comment" rows="8" name="comment" id="comment" placeholder="Введіть текст"></textarea>
-                </div>
-                <div class="form-agreement">
-                    <input type="checkbox" name="agreement" value="agreement" id="agreement">
-                    <label for="agreement">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
-                </div>
+                </label>
+                <label class="form-field">Коментар
+                    <textarea class="comment" rows="8" name="comment" placeholder="Введіть текст"></textarea>
+                </label>
+                <label class="form-agreement">
+                    <input class="checkbox hidden-title" type="checkbox" name="agreement" value="agreement">
+                    <span class="icon-agreement">
+                        <svg class="icon-check" width="16px" height="15px">
+                            <use href="./images/icons.svg#icon-check"> </use>
+                        </svg>
+                    </span>
+                    Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+                </label>
                 <button type="submit" class="form-button">
                     Відправити
                 </button>
